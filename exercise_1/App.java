@@ -62,6 +62,7 @@ public class App {
         dragon.name = "Ancient Wyvern";
         dragon.enemyDialogue();
        
+        // Exercise_1
         // Weapon Class
         Weapon longsword = new Weapon();
 
