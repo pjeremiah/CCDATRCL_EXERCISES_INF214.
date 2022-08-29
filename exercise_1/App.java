@@ -8,9 +8,9 @@ public class App {
         longsword.Weight = 6;
         longsword.Rarity = "Common";
         longsword.weaponDescription = "A cheap sword which is used mostly by common enemies.";
-        longsword.sayMyName();
-        longsword.sayMyRarity();
-        longsword.sayMyweaponDescription();
+        longsword.sayName();
+        longsword.sayRarity();
+        longsword.sayweaponDescription();
     
         Weapon sword = new Weapon();
 
@@ -19,9 +19,9 @@ public class App {
         sword.Weight = 2;
         sword.Rarity = "Rare";
         sword.weaponDescription = "A straight sword as black as the night. It once belonged to a thief who roamed the benighted streets.";
-        sword.sayMyName();
-        sword.sayMyRarity();
-        sword.sayMyweaponDescription();
+        sword.sayName();
+        sword.sayRarity();
+        sword.sayweaponDescription();
 
         Weapon bow = new Weapon();
 
@@ -30,9 +30,9 @@ public class App {
         bow.Weight = 4;
         bow.Rarity = "Legendary";
         bow.weaponDescription = "A pristine bow that is as sharp as the glaciers of the far north.";
-        bow.sayMyName();
-        bow.sayMyRarity();
-        bow.sayMyweaponDescription();
+        bow.sayName();
+        bow.sayRarity();
+        bow.sayweaponDescription();
     }
 
 }
