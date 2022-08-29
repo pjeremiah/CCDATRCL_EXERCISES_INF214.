@@ -9,6 +9,12 @@ public class Weapon {
     public void sayName() {
         System.out.println("Name of the Weapon: " + Name );
     }
+    public void sayDamage() {
+        System.out.println("Damage: " + Damage );
+    }
+    public void sayWeight() {
+        System.out.println("Weight: " + Weight );
+    }
     public void sayRarity() {
         System.out.println("Rarity: " + Rarity );
     }
