@@ -71,6 +71,8 @@ public class App {
         longsword.Rarity = "Common";
         longsword.weaponDescription = "A cheap sword which is used mostly by common enemies.";
         longsword.sayName();
+        longsword.sayDamage();
+        longsword.sayWeight();
         longsword.sayRarity();
         longsword.sayweaponDescription();
     
@@ -82,6 +84,8 @@ public class App {
         sword.Rarity = "Rare";
         sword.weaponDescription = "A straight sword as black as the night. It once belonged to a thief who roamed the benighted streets.";
         sword.sayName();
+        sword.sayDamage();
+        sword.sayWeight();
         sword.sayRarity();
         sword.sayweaponDescription();
 
@@ -93,6 +97,8 @@ public class App {
         bow.Rarity = "Legendary";
         bow.weaponDescription = "A pristine bow that is as sharp as the glaciers of the far north.";
         bow.sayName();
+        bow.sayDamage();
+        bow.sayWeight();
         bow.sayRarity();
         bow.sayweaponDescription();
     }
