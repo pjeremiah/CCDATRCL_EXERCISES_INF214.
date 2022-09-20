@@ -14,7 +14,7 @@ Queue<String> StudentName = new LinkedList<>();
  StudentName.add(" Idel Lawrence Aranilla");
 
 // Display all elements of the queue.
-System.out.println("Students Name: " + StudentName);
+System.out.println("All of the students names were in queue: " + StudentName);
 
 // Get the size of the queue
 System.out.println("Size of the Queue is: " + StudentName.size());
@@ -23,7 +23,7 @@ System.out.println("Size of the Queue is: " + StudentName.size());
 System.out.println("Front of the Queue is: " + StudentName.peek());
 
  // Dequeue 5 of your classmates
- System.out.println("Removing all Students: " + StudentName);
+ System.out.println("Removing all Students in queue: " + StudentName);
  StudentName.remove();
  StudentName.remove();
  StudentName.remove();
@@ -41,7 +41,7 @@ System.out.println(StudentName);
  StudentName.add("Hani Hafiz Elhag,");
 
  // Display all elements of the queue.
-System.out.println("Students Name: " + StudentName);
+System.out.println("All of the students Name were in queue: " + StudentName);
 
  // Get the size of the queue
  System.out.println("Size of the Queue is: " + StudentName.size());
