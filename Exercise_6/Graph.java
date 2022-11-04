@@ -29,8 +29,8 @@ public class Graph {
     public static void main(String[] args) {
 
         // create an object of Graph class
-        int noVertices = 11;
-        int noEdges = 11;
+        int noVertices = 13;
+        int noEdges = 13;
         Graph myGraph = new Graph(noVertices, noEdges);
 
         // create graph
@@ -57,27 +57,35 @@ public class Graph {
 
         // Edge 6
         myGraph.edge[5].src = "Frankie";
-        myGraph.edge[5].dest = "Bruce";
+        myGraph.edge[5].dest = "Dave";
 
         // Edge 7
         myGraph.edge[6].src = "Frankie";
-        myGraph.edge[6].dest = "Charlize";
+        myGraph.edge[6].dest = "Bruce";
 
         // Edge 8
-        myGraph.edge[7].src = "Gerald";
-        myGraph.edge[7].dest = "Andried";
+        myGraph.edge[7].src = "Frankie";
+        myGraph.edge[7].dest = "Charlize";
 
         // Edge 9
         myGraph.edge[8].src = "Gerald";
-        myGraph.edge[8].dest = "Lovely";
+        myGraph.edge[8].dest = "Andried";
 
         // Edge 10
-        myGraph.edge[9].src = "Andried";
-        myGraph.edge[9].dest = "Vergel";
+        myGraph.edge[9].src = "Gerald";
+        myGraph.edge[9].dest = "Lovely";
 
         // Edge 11
-        myGraph.edge[10].src = "Ericka";
-        myGraph.edge[10].dest = "Riki";
+        myGraph.edge[10].src = "Andried";
+        myGraph.edge[10].dest = "Vergel";
+
+        // Edge 12
+        myGraph.edge[11].src = "Ericka";
+        myGraph.edge[11].dest = "Riki";
+
+        // Edge 13
+        myGraph.edge[12].src = "Ericka";
+        myGraph.edge[12].dest = "Dave";
 
         // print graph
         for (int i = 0; i < noEdges; i++) {
