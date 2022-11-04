@@ -29,7 +29,7 @@ public class Graph {
     public static void main(String[] args) {
 
         // create an object of Graph class
-        int noVertices = 13;
+        int noVertices = 11;
         int noEdges = 13;
         Graph myGraph = new Graph(noVertices, noEdges);
 
